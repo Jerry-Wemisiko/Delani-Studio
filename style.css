@@ -1,0 +1,34 @@
+.header{
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+#intro{
+    margin-bottom: 200px;
+    padding-top: 300px;
+}
+.header h1{
+    font-size:xx-large;
+    color: white;
+    font-weight: 700;
+}
+.header p{
+    color: white;
+    font-weight: 700;
+}
+.header h1 p{
+  display: flex;
+  flex-direction: column;
+}
+.about{
+    text-align: center;
+    padding: 50px;
+}
+/* #mouse{
+    padding-top: 100px;
+    /* margin-bottom: 0;
+    padding: 0;
+} */ */
