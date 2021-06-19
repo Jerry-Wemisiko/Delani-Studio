@@ -33,9 +33,16 @@
     padding: 150px;
     color: white;
 }
-.whatwedo img{
+.whatwedo{
+    padding:50px;
     text-align: center;
-    padding: 100px;
+}
+.whatwedo img{
+    margin: 5px; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
 }
 /* #mouse{
     padding-top: 100px;
