@@ -65,24 +65,32 @@ flex-direction: row;
 }
 .merged{
     justify-content: center;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
 }
 .namemail {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    margin-right: 100px;
 }
 
 .name {
     margin-right: -270px;
     background-color: inherit;
-    padding-right: 350px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
 .email {
     margin-right: 20px;
-    padding-right: 200px;
+     padding-right: 200px;
+     display: flex;
+     flex-direction: column;
 }
 #pOne,#pTwo,#pThree{
     display: flex;
@@ -100,25 +108,25 @@ flex-direction: row;
     padding: 20px;
 }
 
-/* #message {
+#message {
     align-content: center;
     padding-right: 220px;
     padding-left: -50px;
-    padding-bottom: 250px;
+    padding-bottom: 30px;
 
 
-} */
+}
 #mce-MMERGE1{
-    font-size: xx-large;
+background-size: contain;
+font-size: xx-large;
 padding: 100px;
 justify-content: center;
-margin-left: 25%;
-height:300px;
-width:700px;
+margin-left: 400px;
 margin-top: 50px;
 }
 #mce-Email {
     padding: 50px;
+    width: max-content;
 }
 
 /* #mouse{
