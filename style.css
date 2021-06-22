@@ -40,35 +40,46 @@
     color: white;
 }
 
-.whatwedo{
+.whatwedo {
     padding: 40px;
 }
-.content{
+@media screen{
+   .whatwedo{
+    max-width:480px ;
+   } 
+    
+}
+.content {
     display: flex;
     flex-direction: row;
 }
+
 .design,
 .dev,
-.prod{
+.prod {
     display: none;
     padding: 100px;
 }
+
 #des,
 #dv,
-#pr{
-padding: 20px;
-display: flex;
-flex-direction: row;
+#pr {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
-#togg{
-    display:none
+
+#togg {
+    display: none
 }
-.merged{
+
+.merged {
     justify-content: center;
-    margin-left:100px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
 }
+
 .namemail {
     display: flex;
     flex-direction: row;
@@ -88,23 +99,28 @@ flex-direction: row;
 
 .email {
     margin-right: 20px;
-     padding-right: 200px;
-     display: flex;
-     flex-direction: column;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
 }
-#pOne,#pTwo,#pThree{
+
+#pOne,
+#pTwo,
+#pThree {
     display: flex;
     flex-direction: row;
     width: 300px;
 }
-#img1,#img2,#img3{
-    /* display: flex;
-    flex-direction: column; */
+
+#img1,
+#img2,
+#img3 {
     width: 300px;
     margin-left: 150px;
     justify-content: center;
 }
-.img img{
+
+.img img {
     padding: 20px;
 }
 
@@ -116,14 +132,28 @@ flex-direction: row;
 
 
 }
-#mce-MMERGE1{
-background-size: contain;
-font-size: xx-large;
-padding: 100px;
-justify-content: center;
-margin-left: 400px;
-margin-top: 50px;
+#mc_embed_signup {
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: white;
+  }
+
+  #mc_embed_signup h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+#mce-MMERGE1 {
+    background-size: contain;
+    font-size: xx-large;
+    padding: 100px;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 50px;
 }
+
 #mce-Email {
     padding: 50px;
     width: max-content;
