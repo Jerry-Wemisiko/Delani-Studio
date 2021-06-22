@@ -87,11 +87,15 @@ flex-direction: row;
 #pOne,#pTwo,#pThree{
     display: flex;
     flex-direction: row;
+    width: 300px;
 }
-/* #img1,#img2,#img3{
-    display: flex;
-    flex-direction: row;
-} */
+#img1,#img2,#img3{
+    /* display: flex;
+    flex-direction: column; */
+    width: 300px;
+    margin-left: 150px;
+    justify-content: center;
+}
 
 /* #message {
     align-content: center;
