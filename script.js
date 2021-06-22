@@ -30,6 +30,4 @@ $(document).ready(function () {
         $("#img3").slideDown("1000");
     });
 
-
-
 });
