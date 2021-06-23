@@ -29,5 +29,12 @@ $(document).ready(function () {
         $(".prod").slideUp("2000");
         $("#img3").slideDown("1000");
     });
+    
+
+
+
+    // $(".col").hover(function(){
+    //     $(this).css("background-color","yellow")
+    // });
 
 });

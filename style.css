@@ -42,12 +42,23 @@
 
 .whatwedo {
     padding: 40px;
+
+} 
+.col{
+    position: relative;
 }
-@media screen{
-   .whatwedo{
-    max-width:480px ;
-   } 
-    
+#imgdescription{
+    visibility: hidden;
+    position: absolute;
+    background: white;
+    opacity: 0.5;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.col:hover #imgdescription{
+    visibility: visible;
 }
 .content {
     display: flex;
@@ -71,6 +82,9 @@
 
 #togg {
     display: none
+}
+.port img{
+    margin:10px;
 }
 
 .merged {
