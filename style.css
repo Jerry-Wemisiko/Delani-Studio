@@ -6,7 +6,9 @@
     padding: 0;
 
 }
-
+h2{
+    font-size: xx-large;
+}
 #intro {
     margin-bottom: 200px;
     padding-top: 300px;
@@ -41,9 +43,17 @@
 }
 
 .whatwedo {
-    padding: 40px;
+    padding: 20px;
+    max-width: 100%;
 
 } 
+/* #pOne,
+#pTwo,
+#pThree {
+    display: flex;
+    flex-direction: row;
+    /* width: 300px; 
+} */
 .col{
     position: relative;
 }
@@ -56,6 +66,10 @@
     bottom: 0;
     right: 0;
     left: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: xx-large;
 }
 .col:hover #imgdescription{
     visibility: visible;
@@ -86,44 +100,32 @@
 .port img{
     margin:10px;
 }
-
-.merged {
-    justify-content: center;
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.namemail {
+.namemail{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right: 100px;
 }
-
-.name {
-    margin-right: -270px;
-    background-color: inherit;
-    padding-right: 300px;
-    display: flex;
-    flex-direction: column;
-
-
+.fname{
+    /* width: 200px; */
+    padding: 20px;
 }
-
-.email {
-    margin-right: 20px;
-    padding-right: 200px;
-    display: flex;
-    flex-direction: column;
+.fEmail{
+    /* width: 200px; */
+    padding: 20px;
 }
-
-#pOne,
-#pTwo,
-#pThree {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
+.nameInput{
+    height: 60px;
+    opacity: 0.5;
+}
+.mailInput{
+    height: 60px;
+    opacity: 0.5;
+}
+.message{
+    height: 200px;
+    width: fit-content;
+    opacity: 0.5;
+    padding-left: 50px;
 }
 
 #img1,
@@ -140,41 +142,19 @@
 
 #message {
     align-content: center;
-    padding-right: 220px;
-    padding-left: -50px;
-    padding-bottom: 30px;
-
-
 }
+
 #mc_embed_signup {
     background-image: url("./assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    clear: left;
     font: 14px Helvetica, Arial, sans-serif;
     color: white;
+    clear: left;
+    padding:50px;
   }
-
-  #mc_embed_signup h2 {
-    text-align: center;
-    margin-top: 10px;
-  }
-#mce-MMERGE1 {
-    background-size: contain;
-    font-size: xx-large;
-    padding: 100px;
-    justify-content: center;
-    margin-left: 400px;
-    margin-top: 50px;
-}
-
-#mce-Email {
+  #mc_embed_signup_scroll{
+    display: flex;
+    flex-direction: column;
     padding: 50px;
-    width: max-content;
-}
-
-/* #mouse{
-    padding-top: 100px;
-    /* margin-bottom: 0;
-    padding: 0;
-} */
+  }
