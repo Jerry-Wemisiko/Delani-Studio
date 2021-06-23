@@ -6,9 +6,11 @@
     padding: 0;
 
 }
-h2{
+
+h2 {
     font-size: xx-large;
 }
+
 #intro {
     margin-bottom: 200px;
     padding-top: 300px;
@@ -47,29 +49,31 @@ h2{
     max-width: 100%;
     /* overflow: scroll; */
     overflow-x: scroll;
-} 
+}
 
- #pOne,
+#pOne,
 #pTwo,
 #pThree {
     /* display: flex;
     flex-direction: row; */
- width: 300px; 
+    width: 300px;
 }
-.port{
+
+.port {
     position: relative;
     overflow-x: scroll;
 }
 
-.col{
+.col {
     position: relative;
 }
-#imgdescription{
+
+#imgdescription {
     visibility: hidden;
     position: absolute;
     background: white;
     opacity: 0.5;
-    top:0;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
@@ -78,9 +82,11 @@ h2{
     padding-top: 10px;
     font-size: xx-large;
 }
-.col:hover #imgdescription{
+
+.col:hover #imgdescription {
     visibility: visible;
 }
+
 .content {
     display: flex;
     flex-direction: row;
@@ -104,9 +110,11 @@ h2{
 #togg {
     display: none
 }
-.port img{
-    margin:10px;
+
+.port img {
+    margin: 10px;
 }
+
 #img1,
 #img2,
 #img3 {
@@ -119,28 +127,33 @@ h2{
     padding: 20px;
 }
 
-.namemail{
+.namemail {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.fname{
+
+.fname {
     /* width: 200px; */
     padding: 20px;
 }
-.fEmail{
+
+.fEmail {
     /* width: 200px; */
     padding: 20px;
 }
-.nameInput{
+
+.nameInput {
     height: 60px;
     opacity: 0.5;
 }
-.mailInput{
+
+.mailInput {
     height: 60px;
     opacity: 0.5;
 }
-.message{
+
+.message {
     height: 200px;
     opacity: 0.5;
     padding-left: 50px;
@@ -155,9 +168,10 @@ h2{
     color: white;
     clear: left;
     margin-top: 20px;
-  }
-  #mc_embed_signup_scroll{
+}
+
+#mc_embed_signup_scroll {
     display: flex;
     flex-direction: column;
     padding: 50px;
-  }
+}
